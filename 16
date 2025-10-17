@@ -1,0 +1,49 @@
+#include <iostream>
+
+/* int main() {
+    int soma = 0;
+
+    for (int i = 1; i <= 100; i++) {
+        if (i % 2 != 0) {
+        }
+    }
+    std::cout << "A soma dos números ímpares de 1 a 100 é: " << soma << std::endl;
+
+    return 0;
+}
+*/
+/* #include <iostream>
+
+int main() {
+    int numeroSecreto = 7;  // Defina o número secreto (exemplo: 7)
+    int tentativa;
+
+    std::cout << "Adivinhe o número entre 1 e 10: ";
+
+    while (true) {
+        std::cin >> tentativa;
+        
+        if (tentativa < numeroSecreto) {
+            std::cout << "O número é maior. Tente novamente: ";
+        } else if (tentativa > numeroSecreto) {
+            std::cout << "O número é menor. Tente novamente: ";
+        } else {
+            std::cout << "Acertou! O número era " << numeroSecreto << std::endl;
+            break;
+        }
+    }
+
+    return 0;
+}
+*/
+
+#include <iostream>
+
+int main() {
+    for (int i = 2; i <= 50; i += 2) {
+        std::cout << i << " ";
+    }
+
+    std::cout << std::endl;
+    return 0;
+}
