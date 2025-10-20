@@ -1,8 +1,49 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/* int main() {
     int idade;
     cout << "Informe uma idade: ";
-    
+    cin >> idade;
+
+    if (idade >= 18) {
+        cout << "é maior de idade. ";
 }
+    else {
+        cout << "é menor de idade";
+}
+}
+*/
+
+/* int main (){
+    int contador = 10;
+
+    do{
+        std::cout << "Contagem Regressiva: " << contador << std::endl;
+        contador--;
+    } while (contador > 0);
+}*/
+
+/* int main (){
+    int entraNum;
+    while (entradaNum != 0){
+        cout << "digite um número: ";
+        cin >> entradaNum;
+
+        if(entradaNum == 0){
+            cout << "Você digitou '0'. PROGRAMA ENCERRADO." << endl;
+        }
+        return 0;
+    }
+} */
+
+*/ int maind (){
+    int numero;
+    cout <<"digite um número para imprimir sua tabela: ";
+    cin >> numero;
+
+    for (int i = 1; i <= 10; i++){
+        cout << numero << "x" << i << "=" << 
+        numero * 1 << endl;
+}
+
