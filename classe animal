@@ -1,0 +1,33 @@
+#include <iostream>
+
+class Animal {
+public:
+std::string cor;
+std::string semicor;
+std::string nome;
+int idade;
+};
+
+int main(int argc, char **argv)
+{
+Animal ferret;
+ferret.cor = "branco";
+ferret.semicor = "marrom";
+ferret.nome = "Hyunjin";
+ferret.idade = 2;
+
+std::cout << "\nO nome do animal é: " << ferret.nome << std::endl;
+std::cout << "\nA cor do animal é: " << ferret.cor << " com " << ferret.semicor << std::endl;
+std::cout << "\nA idade do animal é: " << ferret.idade << " anos" << std::endl;
+
+
+Animal gato;
+gato.cor = "amarelo";
+gato.semicor = "um pouquinho de branco";
+gato.nome = "Jorginho";
+gato.idade = 5;
+
+std::cout << "\nO nome do gato é: " << gato.nome << std::endl;
+std::cout << "\nA cor do gato é: " << gato.cor << " com " << gato.semicor << std::endl;
+std::cout << "\nA idade do gato é: " << gato.idade << " meses" << std::endl;
+}
